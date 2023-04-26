@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* https://www.airbnb.com.au/?c=.pi0.pk145025231_9003698711&ghost=true&gclid=CjwKCAjwrpOiBhBVEiwA_473dEDDrVXGCuyl_GUTA9xcQ_V2z2AxaVV9BfWZPrwgXp2lbwzbxk2fFBoCjGgQAvD_BwE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.result-grid-center{
+    display: flex;
+    justify-content: center;
+}
+
+.result-grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-gap: 20px;
+    
+}
+
+.result-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    max-width: 250px;
+}
+
+.result-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.result-title{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.search-btn{
+    right: 27px;
+    z-index: 1;
+    position: relative;
+}
